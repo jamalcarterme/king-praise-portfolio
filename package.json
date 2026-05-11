@@ -1,0 +1,18 @@
+{
+  "name": "king-praise-portfolio",
+  "version": "1.0.0",
+  "description": "King Praise Portfolio - Web Developer Showcase",
+  "main": "main.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./style.css --minify"
+  },
+  "keywords": ["portfolio", "web-developer", "tailwind"],
+  "author": "Praise",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.6"
+  }
+}
